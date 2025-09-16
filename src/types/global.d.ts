@@ -10,7 +10,7 @@ declare global {
                 src?: string;
                 trigger?: string;
                 colors?: string;
-                target?: string;
+                style?: string;
             };
         }
     }
