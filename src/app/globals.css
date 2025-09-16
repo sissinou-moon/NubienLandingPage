@@ -24,3 +24,78 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.fadingBlur {
+    mask: linear-gradient(transparent, black, black);
+    backdrop-filter: blur(10px);
+}
+
+.footer {
+    background: conic-gradient(at 50% 0%, #000 90deg, rgba(79, 26, 214, 0.4) 181.3deg, #000 270deg);
+    color: white;
+    padding: 2rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-links h4 {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footer-form input {
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: white;
+}
+
+.footer-form button {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(180deg, #4f1ad6 0%, #8059e3 100%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
