@@ -1,6 +1,11 @@
 import FingerPrintSVG from "@/components/fingerPrintSVG";
 import FireSVG from "@/components/fireSVG";
 import LordIcon from "@/components/LordIcon";
+import walletIcon from "@/assets/animations/system-regular-5-wallet-hover-wallet.json"
+import documentIcon from "@/assets/animations/system-regular-50-file-hover-file-1.json"
+import checkIcon from "@/assets/animations/system-regular-31-check-hover-pinch.json"
+import boxMailIcon from "@/assets/animations/system-regular-9-inbox-hover-inbox.json"
+import statisticIcon from "@/assets/animations/system-regular-43-pie-chart-diagram-hover-pie-chart.json"
 
 export default function ChooseUs() {
 
@@ -8,32 +13,32 @@ export default function ChooseUs() {
         {
             title: 'Instant transfers',
             description: 'Send and receive crypto in seconds, without delays or bottlenecks.\n',
-            icon: 'yycecovd'
+            icon: walletIcon
         },
         {
             title: 'Risk analysis',
             description: 'Stay ahead of the market with smart insights into potential risks.',
-            icon: 'btfbysou'
+            icon: statisticIcon
         },
         {
             title: 'Real-time alerts',
             description: 'Get notified instantly about price moves, trends, and key events.',
-            icon: 'bimokqfw',
+            icon: boxMailIcon
         },
         {
             title: 'Tax Optimization',
             description: 'Automate reports and minimise your tax burden with built-in tools.',
-            icon: 'jqqjtvlf'
+            icon: documentIcon
         },
         {
             title: 'Autopilot mode',
             description: 'Let smart algorithms manage your assets while you stay hands-off.',
-            icon: 'cfkiwvcc'
+            icon: documentIcon
         },
         {
             title: 'Maximum security',
             description: 'Protect your funds with top-tier encryption and multi-layer defences.',
-            icon: 'uvofdfal'
+            icon: checkIcon
         },
     ]
 

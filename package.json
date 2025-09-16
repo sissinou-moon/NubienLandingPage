@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@lordicon/react": "^1.11.0",
     "framer-motion": "^12.23.12",
+    "lottie-web": "^5.13.0",
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
