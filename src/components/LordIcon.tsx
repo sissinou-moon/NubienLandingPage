@@ -26,6 +26,6 @@ export default function LordIcon({ icon, width = 250, height = 250 }: LordIconPr
             trigger="loop"
             colors="primary:#ffffff"
             style={{ width: `${width}px`, height: `${height}px` }}
-        />
+        /> as any
     );
 }
