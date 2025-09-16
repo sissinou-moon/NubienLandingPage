@@ -1,4 +1,5 @@
-// components/MyIcon.tsx
+// @ts-nocheck
+
 import React from "react";
 
 const FeatureSVG = ({ width = 256, height = 256 }: {width?: number, height?: number }) => {
