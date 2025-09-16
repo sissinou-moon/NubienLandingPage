@@ -40,7 +40,7 @@ export default function ChooseUs() {
 
 
     return (
-        <div className='relative z-10 flex flex-col items-center justify-start h-screen bg-black'>
+        <div id='reason' className='relative z-10 flex flex-col items-center justify-start h-screen bg-black'>
             <div className='flex flex-row px-3 py-1.5 rounded-full border border-white/10 bg-black/50 text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-white/50 gap-2 mt-15'>
                 <div className='flex justify-center px-2 py-1 text-xs items-center bg-gradient-to-t from-[#8A4BFE] to-[#5F4BFE] border border-white/20 text-white font-semibold rounded-full'><FireSVG/></div>
                 Why Choosing Us

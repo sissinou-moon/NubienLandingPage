@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <div className='bg-black relative z-20 px-15 pb-10' >
-            <footer className="footer h-110  border border-white/20 rounded-3xl p-8">
+        <div className='bg-black relative z-20 md:px-15 px-5 pb-10' >
+            <footer className="footer md:h-110 h-95  border border-white/20 rounded-3xl p-8">
                 <div className="flex flex-col gap-5 border-b border-white/20 pb-5 mb-5">
                     <a href="/" className="footer-logo">
                         <img src="https://framerusercontent.com/images/PDnQxgl1tNjGL6DZbMAh0HAtEU.png" alt="Logo" />
@@ -29,9 +29,9 @@ export default function Footer() {
                         <h4>Social</h4>
                         <ul>
                             <li><a href="https://x.com/MandroDesign" target="_blank">Twitter (X)</a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-                            <li><a href="https://www.framer.com/?via=westhill97" target="_blank">Framer</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">Thread</a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.framer.com/?via=westhill97" target="_blank">Codili</a></li>
                         </ul>
                     </div>
 

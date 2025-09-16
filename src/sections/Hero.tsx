@@ -15,7 +15,7 @@ export default function Hero() {
     ]
 
     return (
-        <div className="relative w-full h-screen overflow-y-hidden">
+        <div id='home' className="relative w-full md:h-screen h-full overflow-y-hidden">
             {/* Background shader */}
             <ElectricNoiseBackground />
 
@@ -24,12 +24,12 @@ export default function Hero() {
 
             {/* Your foreground content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full">
-                <div className='flex flex-row px-3 py-1.5 rounded-full border border-white/10 bg-black/50 text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-white/50 gap-2 mt-10'>
+                <div className='flex flex-row px-3 py-1.5 rounded-full border border-white/10 bg-black/50 text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-white/50 gap-2 md:mt-10 mt-20'>
                     <div className='flex justify-center px-2 py-1 text-xs items-center bg-gradient-to-t from-[#8A4BFE] to-[#5F4BFE] border border-white/20 text-white font-semibold rounded-full'>2025</div>
                     Next-Gen AI Studio
                 </div>
-                <h1 className="text-white text-[80px] max-w-220 font-[500] text-center leading-tight">AI-Driven Success Redefining the Future.</h1>
-                <p className="text-white/50 text-md max-w-120 font-normal text-center mt-5">
+                <h1 className="text-white lg:text-[80px]  md:text-[60px] text-[45px]  max-w-220 font-[500] text-center leading-tight">AI-Driven Success Redefining the Future.</h1>
+                <p className="text-white/50 text-md md:max-w-120 max-w-80 font-normal text-center mt-5">
                     Creating latest solutions that redefine innovation. <br />
                     Stay ahead with AI-powered technology for the future.
                 </p>
@@ -41,7 +41,7 @@ export default function Hero() {
                         What's Nubian ?
                     </div>
                 </div>
-                <div className="relative w-100 overflow-hidden mt-8">
+                <div className="relative w-100 overflow-hidden mt-8 mb-10 md:mb-0">
                     <motion.div
                         className="flex gap-16 min-w-max"
                         animate={{ x: ["0%", "-50%"] }}
