@@ -34,6 +34,7 @@ export default function LordIcon({
             icon={icon}
             colors="primary:#ffffff"
             size={height}
+            onComplete={() => playerRef.current?.playFromBeginning()}
         />
     );
 }

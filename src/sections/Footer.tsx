@@ -17,21 +17,21 @@ export default function Footer() {
                     <div>
                         <h4>Pages</h4>
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/portfolio">Portfolio</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="/#faq">FAQ</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#reason">Reason</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4>Social</h4>
                         <ul>
-                            <li><a href="https://x.com/MandroDesign" target="_blank">Twitter (X)</a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank">Thread</a></li>
-                            <li><a href="https://www.youtube.com/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://www.framer.com/?via=westhill97" target="_blank">Codili</a></li>
+                            <li><a href="https://x.com/codili_?t=SjyQEZ-mZ7TxeveLgE6y5w&s=09" target="_blank">Twitter (X)</a></li>
+                            <li><a href="https://www.threads.com/@codili.freelance" target="_blank">Thread</a></li>
+                            <li><a href="https://www.linkedin.com/in/abderrahmane-dev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://codili.vercel.app" target="_blank">Codili</a></li>
                         </ul>
                     </div>
 

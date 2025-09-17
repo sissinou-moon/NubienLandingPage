@@ -20,7 +20,7 @@ export default function Hero() {
             <ElectricNoiseBackground />
 
             {/* Blur overlay */}
-            <div className="absolute inset-0 backdrop-blur-md bg-black/10" />
+            <div className="absolute inset-0 backdrop-blur-sm bg-black/10" />
 
             {/* Your foreground content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full">
