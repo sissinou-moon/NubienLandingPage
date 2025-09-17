@@ -90,11 +90,11 @@ export default function ElectricNoiseBackground() {
     `;
 
         function compileShader(src: string, type: number) {
-            const shader = gl.createShader(type)!;
-            gl.shaderSource(shader, src);
-            gl.compileShader(shader);
-            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-                console.error(gl.getShaderInfoLog(shader));
+            const shader = gl?.createShader(type)!;
+            gl?.shaderSource(shader, src);
+            gl?.compileShader(shader);
+            if (!gl?.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                console.error(gl?.getShaderInfoLog(shader));
             }
             return shader;
         }
@@ -133,11 +133,11 @@ export default function ElectricNoiseBackground() {
 
         function render() {
             const currentTime = (Date.now() - startTime) / 1000.0;
-            gl.viewport(0, 0, canvas.width, canvas.height);
-            gl.uniform2f(iResolution, canvas.width, canvas.height);
-            gl.uniform1f(iTime, currentTime);
+            gl?.viewport(0, 0, canvas.width, canvas.height);
+            gl?.uniform2f(iResolution, canvas.width, canvas.height);
+            gl?.uniform1f(iTime, currentTime);
 
-            gl.drawArrays(gl.TRIANGLES, 0, 6);
+            gl?.drawArrays(gl.TRIANGLES, 0, 6);
             requestAnimationFrame(render);
         }
 
